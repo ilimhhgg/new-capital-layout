@@ -345,12 +345,12 @@
   .why-are-we {
     padding-top: 4rem;
   }
-}
-@media (max-width: 1350px) {
-  .conteiner {
-    max-width: 920px;
-  }
 
+  .conteiner {
+    max-width: 1100px;
+  }
+}
+@media (max-width: 1430px) {
   .hamburger-menu {
     display: block;
   }
@@ -358,7 +358,8 @@
   .home-header__nav {
     display: none;
   }
-
+}
+@media (max-width: 1350px) {
   .our-services__collums {
     flex-direction: column;
     align-items: center;
